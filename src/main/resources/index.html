@@ -1,0 +1,21 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout/layout :: head">
+</head>
+<body>
+
+	<header th:replace="layout/layout :: header"> </header>
+	<div class="container py-2">
+		
+			
+			<h1 th:text="${mensaje}"
+			class="text-secondary border border-success border-top-0 border-left-0 border-right-0"></h1>
+			
+			<div class="card-body">
+			    <h1> Pagina de inicio de Post Ap-Spoty-id : </h1>
+			</div>
+ 
+	</div>
+	<footer th:replace="layout/layout :: footer" ></footer>
+
+</body>
+</html>
