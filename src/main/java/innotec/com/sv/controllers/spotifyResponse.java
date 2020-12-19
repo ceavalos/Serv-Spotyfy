@@ -26,8 +26,8 @@ import org.springframework.web.client.RestTemplate;
 public class spotifyResponse {
 
 	
-	final static String CLIENT_ID_SECRET = "b8389dafa4a94132be46aa00ba334941";
-	final static String CLIENTSECRET = "f1515deccde84caaa3fb7d6efa143f04";
+	final static String CLIENT_ID_SECRET = "xb8389dafa4a94132be46aa00ba334941";
+	final static String CLIENTSECRET = "xf1515deccde84caaa3fb7d6efa143f04";
 	
 	
 	@RequestMapping("/")
